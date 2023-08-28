@@ -57,7 +57,8 @@ def add(x):
 errores = []
 if __name__ == "__main__":
     columnas = ['Sex', 'Length', 'Diameter', 'Height', 'Whole weight', 'Shucked weight', 'Viscera weight', 'Shell weight', 'Rings']
-    df = pd.read_csv('C:/Users/Edu/Desktop/ML2/abalone.data', names=columnas)
+    #df = pd.read_csv('C:/Users/Edu/Desktop/ML2/abalone.data', names=columnas)
+    df = pd.read_csv('data/abalone.data', names=columnas)
     df_x = df.iloc[:, 5:8].to_numpy().tolist()
     df_y = df.iloc[:, 4].to_numpy().tolist()
     params = np.zeros(len(df_x[0])+1).tolist()
