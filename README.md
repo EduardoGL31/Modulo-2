@@ -1,9 +1,10 @@
 # Modulo-2
 Implementación de una técnica de aprendizaje máquina sin el uso de un framework.
 
+Debemos de tener python3 con un SO linux
+
 Para compilar el codigo debemos de copiar el repositorio con el siguiente comando:
 
-nota: debemos de tener python3 con un SO linux
 
 ```
 git clone https://github.com/EduardoGL31/Modulo-2.git
