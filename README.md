@@ -15,4 +15,5 @@ Nos movemos a la carpeta donde copiamos el repositorio, abrimos una terminal y e
 python3 regresionli.py
 ```
 El data ser utilizado fue Abalone, lo podemos consultar aquí: https://archive.ics.uci.edu/dataset/1/abalone 
+
 Al usar este dataset podemos predecir la edad del abalone a partir de mediciones físicas.
